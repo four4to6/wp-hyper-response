@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: natsuki1982
-Donate link: http://stocker.jp/
+Donate link: https://stocker.jp/
 Tags: performance
 Requires at least: 3.0
 Tested up to: 3.1
@@ -14,10 +14,10 @@ WordPressサイト及び管理画面のレスポンスを向上させるプラ�
 This plugin improves the response of WordPress using flush() function.
 
 [Comparison Video]
-http://www.youtube.com/watch?v=ona77jYreBk
+https://www.youtube.com/watch?v=ona77jYreBk
 
 [Japanese Description is here]
-http://stocker.jp/diary/wp-hyper-response/
+https://stocker.jp/diary/wp-hyper-response/
 
 == Installation ==
 
