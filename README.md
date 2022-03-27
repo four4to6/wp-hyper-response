@@ -60,14 +60,8 @@ webサーバーがプロセスを大量につくってしまいます。
 # 参考文献 (reference)
 
 - [https://stocker.jp/diary/wp-hyper-response/](https://stocker.jp/diary/wp-hyper-response/)
-
 - [https://wpdocs.osdn.jp/%E3%82%AF%E3%83%A9%E3%82%B9%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/WP_Post](https://wpdocs.osdn.jp/%E3%82%AF%E3%83%A9%E3%82%B9%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/WP_Post)
-
 - [https://wpdocs.osdn.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/get_header](https://wpdocs.osdn.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/get_header)
-
 - [https://www.php.net/manual/ja/function.ob-get-level.php](https://www.php.net/manual/ja/function.ob-get-level.php)
-
 - [https://www.php.net/manual/ja/function.ob-flush.php](https://www.php.net/manual/ja/function.ob-flush.php)
-
 - [https://www.php.net/manual/ja/outcontrol.constants.php](https://www.php.net/manual/ja/outcontrol.constants.php)
-
