@@ -22,11 +22,11 @@ $objPost = get_post();
 $accessPost = apply_filters( 'the_content', $objPost->post_content );
 add_action ( $accessPost, 'wp_hyper_response', 9999 );
 
-// Just Use Your code on shutdown hook and make the position earlier And the default ob_end_flush() will recognize your output and will flush it
-add_action( 'shutdown', 'wp_hyper_response', 9999 );
-
 // wp_hyper_response関数
 function wp_hyper_response() {
+     // Fires just before PHP shuts down execution.
+     // https://github.com/WordPress/WordPress/blob/18a62537472eb3d1185583449bc53a81761dda31/wp-includes/load.php#L604
+     do_action(‘shutdown’);
      // make sure output buffering is off before we start it
      // this will ensure same effect whether or not ob is enabled already
      while( ob_get_level() ) {
