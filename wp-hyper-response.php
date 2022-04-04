@@ -8,6 +8,8 @@ Author: なつき(@Stocker_jp)
 Author URI: https://stocker.jp/
 */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly;
+
 // admin_head（管理画面のヘッダ）で wp_hyper_response()関数を実行（優先度 9999=最低）
 add_action ( 'admin_head', 'wp_hyper_response', 9999 );
 
